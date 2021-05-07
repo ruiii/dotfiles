@@ -123,7 +123,7 @@ module.exports = {
       {
         format: ['camelCase', 'UPPER_CASE', 'snake_case'],
         modifiers: ['destructured'],
-        selector: ['variable'],
+        selector: ['variable', 'parameter'],
       },
     ],
     '@typescript-eslint/no-empty-function': 'off',
